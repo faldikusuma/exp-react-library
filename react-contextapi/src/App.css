@@ -1,0 +1,39 @@
+.movie-list {
+  background-color: white;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 10%;
+}
+.movie > li {
+  list-style: none;
+}
+.App-logo {
+  height: 10%;
+  width: 10%;
+  margin-right: 40%;
+}
+.App-header {
+  background-color: #282c34;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
